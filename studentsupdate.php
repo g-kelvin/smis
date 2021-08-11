@@ -34,7 +34,7 @@ include "config.php";
 
         $result = mysqli_query($con, $query);
         if($result){
-          header('refresh:0.1;url=active.php');
+          header('location: home.php');
             
         }
         else

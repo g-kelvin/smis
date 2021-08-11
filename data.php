@@ -32,7 +32,7 @@ if($con){
     $qry=mysqli_query( $con," INSERT INTO `students` (`studentid`, `fname`,`lname`, `address`, `town`, `county`, `postal`, `grade`, `course`, `dob`, `religion`, `course_duration`, `campus`, `idno`, `paid_by`, `dateofadmin`, `gender`, `tel`, `email`, `adminno`, `fees_paid`, `admitted_by`, `additional` , `status`) VALUES (NULL, '$fname', '$lname', '$address', '$town', '$county', '$postal', '$grade', '$course', '$dob', '$religion', '$course_duration', '$campus', '$idno', '$paid_by', '$dateofadmin', '$gender', '$tel', '$email', '$adminno', '$fees_paid', '$admitted_by', '$additional' , 'Active' )" );
     if($qry)
     {
-      header('refresh:0.1;url=display.php');
+      header('location: display.php');
     }
 
     else{

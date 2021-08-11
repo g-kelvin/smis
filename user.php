@@ -12,7 +12,7 @@ if($con){
     if($qry)
     {
     	 echo "Account Creation Successful";
-      header('refresh:3;url=login.php');
+      header('refresh:3;url=index.php');
     }
 
     else{

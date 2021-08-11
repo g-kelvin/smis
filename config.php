@@ -1,5 +1,5 @@
 <?php 
- $con= mysqli_connect("localhost","kasaranicatering", "QbEAeL5!r$,(","kasaranicatering_kasaranicatering");
+ $con=mysqli_connect("localhost","root", "","kasaranicatering");
 
  ?>
 
